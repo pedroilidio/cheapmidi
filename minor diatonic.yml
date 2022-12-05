@@ -1,0 +1,79 @@
+57: {type: switch}  # space bar
+42: {type: button}  # left shift
+54: {type: button}  # right shift
+
+# Keys 1 to =
+2: {type: note, note: 84}
+3: {type: note, note: 86}
+4: {type: note, note: 87}
+5: {type: note, note: 89}
+6: {type: note, note: 91}
+7: {type: note, note: 92}
+8: {type: note, note: 94}
+9: {type: note, note: 96}
+10: {type: note, note: 98}
+11: {type: note, note: 99}
+12: {type: note, note: 101}
+13: {type: note, note: 103}
+
+# Keys q to [
+16: {type: note, note: 72}
+17: {type: note, note: 74}
+18: {type: note, note: 75}
+19: {type: note, note: 77}
+20: {type: note, note: 79}
+21: {type: note, note: 80}
+22: {type: note, note: 82}
+23: {type: note, note: 84}
+24: {type: note, note: 86}
+25: {type: note, note: 87}
+26: {type: note, note: 89}
+27: {type: note, note: 91}
+
+# Keys a to ]
+30: {type: note, note: 60}
+31: {type: note, note: 62}
+32: {type: note, note: 63}
+33: {type: note, note: 65}
+34: {type: note, note: 67}
+35: {type: note, note: 68}
+36: {type: note, note: 70}
+37: {type: note, note: 72}
+38: {type: note, note: 74}
+39: {type: note, note: 75}
+40: {type: note, note: 77}
+43: {type: note, note: 79}
+
+# Keys z to /
+44: {type: note, note: 48}
+45: {type: note, note: 50}
+46: {type: note, note: 51}
+47: {type: note, note: 53}
+48: {type: note, note: 55}
+49: {type: note, note: 56}
+50: {type: note, note: 58}
+51: {type: note, note: 60}
+52: {type: note, note: 62}
+53: {type: note, note: 63}
+89: {type: note, note: 65}
+
+# Num pad
+79: {type: note, note: 36}  # 1: C1
+80: {type: note, note: 37}
+81: {type: note, note: 38}
+96: {type: note, note: 39}  # Enter
+75: {type: note, note: 40}  # 4
+76: {type: note, note: 41}
+77: {type: note, note: 42}
+121: {type: note, note: 43}  # .
+71: {type: note, note: 44}  # 7
+72: {type: note, note: 45}
+73: {type: note, note: 46}
+78: {type: note, note: 47}  # +
+69: {type: note, note: 48}  # Num lock
+98: {type: note, note: 49}  # ÷
+55: {type: note, note: 50}  # *
+74: {type: note, note: 51}  # -
+
+82: {type: transpose, semitones: -16}  # 0
+83: {type: transpose, semitones: 16}  # ,(del)

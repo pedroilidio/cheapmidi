@@ -137,3 +137,34 @@ def main():
 
 if __name__ == '__main__':
     main()
+=======
+from time import sleep
+import gi
+import mido
+
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+
+builder = Gtk.Builder()
+builder.add_from_file('cheapmidi.glade')
+
+mido.set_backend('mido.backends.rtmidi/UNIX_JACK')
+midi_out = mido.open_output('CheapMIDI', virtual=True)
+
+def print_hi(button):
+    print('hi!')
+
+def send_note(b):
+    print('sending note')
+    midi_out.send(mido.Message('note_on', note=72))
+    sleep(1)
+    midi_out.send(mido.Message('note_off', note=72))
+
+builder.connect_signals({
+    'sendNote': send_note,
+    'onDestroy': Gtk.main_quit,
+    'quit': Gtk.main_quit,
+})
+
+builder.get_object('main_window').show_all()
+Gtk.main()

@@ -1,4 +1,6 @@
-evdev==1.5.0
-keyboard==0.13.5
+evdev==1.5
+keyboard==0.13
 python-xlib==0.31
-six==1.16.0
+six==1.16
+mido==1.2
+python-rtmidi
